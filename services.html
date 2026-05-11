@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Laitilan Motormek Oy | Services</title>
+  <meta
+    name="description"
+    content="Autokorjaamo Laitilassa: diagnoosi, jarruhuolto, alusta, öljynvaihto, moottorikorjaukset ja yleiset korjaukset."
+  >
+  <meta name="theme-color" content="#0d1117">
+  <link rel="icon" type="image/png" href="logo-removebg-preview.png">
+  <link rel="apple-touch-icon" href="logo-removebg-preview.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="services">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a class="header-call button button-secondary" href="tel:0458586402">
+        <span class="header-call-icon" aria-hidden="true">📞</span>
+        <span class="header-call-text" data-i18n="header_call">Ota yhteyttä</span>
+      </a>
+
+      <a class="brand brand-center" href="index.html" aria-label="Laitilan Motormek Oy home">
+        <span class="brand-logo-wrap">
+          <img class="brand-logo" src="logo-removebg-preview.png" alt="Laitilan Motormek Oy logo">
+        </span>
+      </a>
+
+      <div class="header-actions">
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Open navigation">
+          <span class="sr-only" data-i18n="header_menu">Menu</span>
+          <span class="nav-toggle-gear" aria-hidden="true">
+            <span class="gear-ring"></span>
+            <span class="gear-core"></span>
+          </span>
+        </button>
+      </div>
+
+      <nav class="nav-menu" aria-label="Primary">
+        <a href="index.html" data-i18n="nav_home">Home</a>
+        <a href="services.html" data-i18n="nav_services">Services</a>
+        <a href="contact.html" data-i18n="nav_contact">Contact</a>
+        <div class="nav-menu-footer">
+          <span class="nav-menu-lang-label" data-i18n="menu_language">Language</span>
+          <div class="lang-switch" aria-label="Language switch">
+            <button class="lang-button is-active" type="button" data-lang-btn="fi">FI</button>
+            <button class="lang-button" type="button" data-lang-btn="en">EN</button>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="section page-section services-page">
+      <div class="container">
+        <div class="page-intro">
+          <p class="eyebrow" data-i18n="services_eyebrow">Palvelut</p>
+          <h1 class="page-title" data-i18n="services_title">Autohuolto, korjaukset ja diagnoosit.</h1>
+          <p class="page-text" data-i18n="services_intro">Käytännölliset huollot ja korjaukset Laitilassa, nopeasti ja selkeästi.</p>
+        </div>
+
+        <div class="service-grid">
+          <article class="service-card">
+            <span class="service-index">01</span>
+            <h3 data-i18n="service_1_title">Diagnoosi</h3>
+            <p data-i18n="service_1_text">Vikakoodien luku, varoitusvalojen tarkistus ja ongelmien paikannus.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-index">02</span>
+            <h3 data-i18n="service_2_title">Jarruhuolto</h3>
+            <p data-i18n="service_2_text">Jarrujen tarkistus, levyjen ja palojen vaihto sekä turvallisuuteen liittyvät huollot.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-index">03</span>
+            <h3 data-i18n="service_3_title">Alusta</h3>
+            <p data-i18n="service_3_text">Alustan kuluvien osien korjaukset ajomukavuuden, hallinnan ja rengaskuluman parantamiseksi.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-index">04</span>
+            <h3 data-i18n="service_4_title">Öljynvaihto</h3>
+            <p data-i18n="service_4_text">Säännöllinen huolto moottorin toimintavarmuuden ja pitkäikäisyyden tueksi.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-index">05</span>
+            <h3 data-i18n="service_5_title">Moottorikorjaukset</h3>
+            <p data-i18n="service_5_text">Moottorin vikojen tarkistus, korjaukset ja toimintavarmuuden parantaminen.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-index">06</span>
+            <h3 data-i18n="service_6_title">Yleiset korjaukset</h3>
+            <p data-i18n="service_6_text">Yleiset mekaaniset korjaukset ja huoltotyöt eri automalleille.</p>
+          </article>
+        </div>
+
+        <div class="page-cta-panel">
+          <p data-i18n="services_cta_text">Tarvitsetko arvion tai ajan huoltoon? Ota yhteyttä suoraan.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="contact.html" data-i18n="hero_cta_contact">Yhteystiedot</a>
+            <a class="button button-secondary" href="tel:0458586402">
+              <span data-i18n="hero_cta_call">Soita</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>&copy; <span id="year"></span> Laitilan Motormek Oy. All rights reserved.</p>
+      <p data-i18n="footer_tagline">Autokorjaamo Laitilassa.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

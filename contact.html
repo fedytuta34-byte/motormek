@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Laitilan Motormek Oy | Contact</title>
+  <meta
+    name="description"
+    content="Laitilan Motormek Oy yhteystiedot: puhelin, sähköposti, osoite ja Google Maps Laitilassa."
+  >
+  <meta name="theme-color" content="#0d1117">
+  <link rel="icon" type="image/png" href="logo-removebg-preview.png">
+  <link rel="apple-touch-icon" href="logo-removebg-preview.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="contact">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a class="header-call button button-secondary" href="tel:0458586402">
+        <span class="header-call-icon" aria-hidden="true">📞</span>
+        <span class="header-call-text" data-i18n="header_call">Ota yhteyttä</span>
+      </a>
+
+      <a class="brand brand-center" href="index.html" aria-label="Laitilan Motormek Oy home">
+        <span class="brand-logo-wrap">
+          <img class="brand-logo" src="logo-removebg-preview.png" alt="Laitilan Motormek Oy logo">
+        </span>
+      </a>
+
+      <div class="header-actions">
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Open navigation">
+          <span class="sr-only" data-i18n="header_menu">Menu</span>
+          <span class="nav-toggle-gear" aria-hidden="true">
+            <span class="gear-ring"></span>
+            <span class="gear-core"></span>
+          </span>
+        </button>
+      </div>
+
+      <nav class="nav-menu" aria-label="Primary">
+        <a href="index.html" data-i18n="nav_home">Home</a>
+        <a href="services.html" data-i18n="nav_services">Services</a>
+        <a href="contact.html" data-i18n="nav_contact">Contact</a>
+        <div class="nav-menu-footer">
+          <span class="nav-menu-lang-label" data-i18n="menu_language">Language</span>
+          <div class="lang-switch" aria-label="Language switch">
+            <button class="lang-button is-active" type="button" data-lang-btn="fi">FI</button>
+            <button class="lang-button" type="button" data-lang-btn="en">EN</button>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="section page-section contact-page">
+      <div class="container contact-grid">
+        <div class="contact-panel">
+          <p class="eyebrow" data-i18n="contact_eyebrow">Yhteystiedot</p>
+          <h1 class="page-title" data-i18n="contact_title">Puhelin, sähköposti ja sijainti samassa paikassa.</h1>
+
+          <div class="contact-list">
+            <a href="tel:0458586402">0458586402</a>
+            <a href="mailto:laitilanmotormet@gmail.com">laitilanmotormet@gmail.com</a>
+            <p>Pilppulantie 4 A, 23800 Laitila, Finland</p>
+            <p data-i18n="contact_hours">Ma-Pe 09:00-17:00</p>
+            <p data-i18n="contact_map_note">Google Maps alla.</p>
+          </div>
+
+          <div class="contact-actions">
+            <a class="button button-primary" href="https://wa.me/0458586402" target="_blank" rel="noreferrer">
+              WhatsApp
+            </a>
+            <a class="button button-secondary" href="mailto:laitilanmotormet@gmail.com" data-i18n="contact_email">Sähköposti</a>
+            <a class="button button-secondary" href="https://maps.google.com/?q=Pilppulantie%204%20A%2C%2023800%20Laitila" target="_blank" rel="noreferrer" data-i18n="contact_maps">
+              Google Maps
+            </a>
+          </div>
+        </div>
+
+        <div class="map-card">
+          <iframe
+            title="Google Maps location of Laitilan Motormek Oy"
+            src="https://www.google.com/maps?q=Pilppulantie%204%20A%2C%2023800%20Laitila&z=15&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>&copy; <span id="year"></span> Laitilan Motormek Oy. All rights reserved.</p>
+      <p data-i18n="footer_tagline">Autokorjaamo Laitilassa.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
