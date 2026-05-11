@@ -827,16 +827,17 @@ body[data-page="contact"] .nav-menu a[href="contact.html"] {
 
 @media (max-width: 760px) {
   .nav {
-    grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+    display: block;
     min-height: 74px;
-    gap: 0.6rem;
     padding: 0.7rem 0;
   }
 
   .brand-center {
     position: absolute;
-    left: 50%;
-    transform: translateX(calc(-50% + 14px));
+    top: 50%;
+    left: calc(50% + 14px);
+    transform: translate(-50%, -50%);
+    z-index: 1;
   }
 
   .brand-logo-wrap {
@@ -845,11 +846,15 @@ body[data-page="contact"] .nav-menu a[href="contact.html"] {
   }
 
   .header-call {
-    grid-column: 1;
+    position: absolute;
+    top: 50%;
+    left: 0;
     min-width: 0;
     min-height: 42px;
     padding: 0 0.8rem;
     font-size: 0.86rem;
+    transform: translateY(-50%);
+    z-index: 2;
   }
 
   .header-call-text {
@@ -857,9 +862,17 @@ body[data-page="contact"] .nav-menu a[href="contact.html"] {
   }
 
   .header-actions {
-    grid-column: 3;
-    justify-self: end;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
     gap: 0.45rem;
+    z-index: 2;
+  }
+
+  .header-call:hover,
+  .header-call:focus-visible {
+    transform: translateY(calc(-50% - 1px));
   }
 
   .lang-button {
