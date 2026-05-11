@@ -828,8 +828,9 @@ body[data-page="contact"] .nav-menu a[href="contact.html"] {
 @media (max-width: 760px) {
   .nav {
     display: block;
+    width: 100%;
     min-height: 74px;
-    padding: 0.7rem 0;
+    padding: 0.7rem 1rem;
   }
 
   .brand-center {
@@ -848,7 +849,7 @@ body[data-page="contact"] .nav-menu a[href="contact.html"] {
   .header-call {
     position: absolute;
     top: 50%;
-    left: 0;
+    left: 1rem;
     min-width: 0;
     min-height: 42px;
     padding: 0 0.8rem;
@@ -864,7 +865,7 @@ body[data-page="contact"] .nav-menu a[href="contact.html"] {
   .header-actions {
     position: absolute;
     top: 50%;
-    right: 0;
+    right: 1rem;
     transform: translateY(-50%);
     justify-self: auto;
     gap: 0.45rem;
