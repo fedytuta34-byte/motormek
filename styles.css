@@ -883,6 +883,10 @@ body[data-page="contact"] .nav-menu a[href="contact.html"] {
   }
 
   .nav-toggle {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    z-index: 30;
     min-height: 42px;
     width: 42px;
   }
