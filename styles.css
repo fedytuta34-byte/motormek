@@ -833,6 +833,12 @@ body[data-page="contact"] .nav-menu a[href="contact.html"] {
     padding: 0.7rem 0;
   }
 
+  .brand-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(calc(-50% + 14px));
+  }
+
   .brand-logo-wrap {
     width: 88px;
     height: 48px;
