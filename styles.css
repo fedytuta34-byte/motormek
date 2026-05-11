@@ -866,6 +866,7 @@ body[data-page="contact"] .nav-menu a[href="contact.html"] {
     top: 50%;
     right: 0;
     transform: translateY(-50%);
+    justify-self: auto;
     gap: 0.45rem;
     z-index: 2;
   }
@@ -883,10 +884,6 @@ body[data-page="contact"] .nav-menu a[href="contact.html"] {
   }
 
   .nav-toggle {
-    position: fixed;
-    top: 1rem;
-    right: 1rem;
-    z-index: 30;
     min-height: 42px;
     width: 42px;
   }
